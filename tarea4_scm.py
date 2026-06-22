@@ -196,6 +196,7 @@ def graficar_resultados(resultados):
 
 
 def main():
+    ejecutar_pruebas_conocidas()
     resultados = ejecutar_experimento()
     mostrar_resultados(resultados)
     graficar_resultados(resultados)
